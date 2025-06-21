@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LoafPanel\\Http\Controllers\Api\Client;
-use LoafPanel\\Http\Middleware\Activity\ServerSubject;
-use LoafPanel\\Http\Middleware\Activity\AccountSubject;
-use LoafPanel\\Http\Middleware\RequireTwoFactorAuthentication;
-use LoafPanel\\Http\Middleware\Api\Client\Server\ResourceBelongsToServer;
-use LoafPanel\\Http\Middleware\Api\Client\Server\AuthenticateServerAccess;
+use LoafPanel\Http\Controllers\Api\Client;
+use LoafPanel\Http\Middleware\Activity\ServerSubject;
+use LoafPanel\Http\Middleware\Activity\AccountSubject;
+use LoafPanel\Http\Middleware\RequireTwoFactorAuthentication;
+use LoafPanel\Http\Middleware\Api\Client\Server\ResourceBelongsToServer;
+use LoafPanel\Http\Middleware\Api\Client\Server\AuthenticateServerAccess;
 
 /*
 |--------------------------------------------------------------------------

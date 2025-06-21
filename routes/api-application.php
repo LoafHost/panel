@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LoafPanel\\Http\Controllers\Api\Application;
+use LoafPanel\Http\Controllers\Api\Application;
 
 /*
 |--------------------------------------------------------------------------
