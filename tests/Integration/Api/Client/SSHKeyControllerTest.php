@@ -1,10 +1,10 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client;
+namespace LoafPanel\Tests\Integration\Api\Client;
 
 use phpseclib3\Crypt\EC;
-use LoafPanel\\Models\User;
-use LoafPanel\\Models\UserSSHKey;
+use LoafPanel\Models\User;
+use LoafPanel\Models\UserSSHKey;
 
 class SSHKeyControllerTest extends ClientApiIntegrationTestCase
 {

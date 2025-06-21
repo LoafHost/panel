@@ -1,15 +1,15 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration;
+namespace LoafPanel\Tests\Integration;
 
 use Carbon\CarbonImmutable;
 use Carbon\CarbonInterface;
-use LoafPanel\\Tests\TestCase;
+use LoafPanel\Tests\TestCase;
 use Illuminate\Support\Facades\Event;
-use LoafPanel\\Events\ActivityLogged;
-use LoafPanel\\Tests\Assertions\AssertsActivityLogged;
-use LoafPanel\\Tests\Traits\Integration\CreatesTestModels;
-use LoafPanel\\Transformers\Api\Application\BaseTransformer;
+use LoafPanel\Events\ActivityLogged;
+use LoafPanel\Tests\Assertions\AssertsActivityLogged;
+use LoafPanel\Tests\Traits\Integration\CreatesTestModels;
+use LoafPanel\Transformers\Api\Application\BaseTransformer;
 
 abstract class IntegrationTestCase extends TestCase
 {

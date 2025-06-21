@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Assertions;
+namespace LoafPanel\Tests\Assertions;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Support\Facades\Event;
-use LoafPanel\\Events\ActivityLogged;
+use LoafPanel\Events\ActivityLogged;
 use Illuminate\Database\Eloquent\Model;
-use LoafPanel\\Models\ActivityLogSubject;
+use LoafPanel\Models\ActivityLogSubject;
 
 trait AssertsActivityLogged
 {

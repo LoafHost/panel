@@ -1,14 +1,14 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\Subuser;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\Subuser;
 
 use Illuminate\Support\Str;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Subuser;
-use LoafPanel\\Models\Permission;
+use LoafPanel\Models\Subuser;
+use LoafPanel\Models\Permission;
 use Illuminate\Foundation\Testing\WithFaker;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class CreateServerSubuserTest extends ClientApiIntegrationTestCase
 {

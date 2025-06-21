@@ -1,10 +1,10 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Services\Acl\Api;
+namespace LoafPanel\Tests\Unit\Services\Acl\Api;
 
-use LoafPanel\\Models\ApiKey;
-use LoafPanel\\Tests\TestCase;
-use LoafPanel\\Services\Acl\Api\AdminAcl;
+use LoafPanel\Models\ApiKey;
+use LoafPanel\Tests\TestCase;
+use LoafPanel\Services\Acl\Api\AdminAcl;
 
 class AdminAclTest extends TestCase
 {

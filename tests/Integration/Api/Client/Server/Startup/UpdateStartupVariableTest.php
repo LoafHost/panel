@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\Startup;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\Startup;
 
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Permission;
-use LoafPanel\\Models\EggVariable;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Permission;
+use LoafPanel\Models\EggVariable;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class UpdateStartupVariableTest extends ClientApiIntegrationTestCase
 {
@@ -16,7 +16,7 @@ class UpdateStartupVariableTest extends ClientApiIntegrationTestCase
     #[\PHPUnit\Framework\Attributes\DataProvider('permissionsDataProvider')]
     public function testStartupVariableCanBeUpdated(array $permissions)
     {
-        /** @var \LoafPanel\\Models\Server $server */
+        /** @var \LoafPanel\Models\Server $server */
         [$user, $server] = $this->generateTestAccount($permissions);
         $server->fill([
             'startup' => 'java {{SERVER_JARFILE}} --version {{BUNGEE_VERSION}}',
@@ -50,7 +50,7 @@ class UpdateStartupVariableTest extends ClientApiIntegrationTestCase
     #[\PHPUnit\Framework\Attributes\DataProvider('permissionsDataProvider')]
     public function testStartupVariableCannotBeUpdatedIfNotUserViewableOrEditable(array $permissions)
     {
-        /** @var \LoafPanel\\Models\Server $server */
+        /** @var \LoafPanel\Models\Server $server */
         [$user, $server] = $this->generateTestAccount($permissions);
 
         $egg = $this->cloneEggAndVariables($server->egg);
@@ -85,7 +85,7 @@ class UpdateStartupVariableTest extends ClientApiIntegrationTestCase
      */
     public function testHiddenVariablesAreNotReturnedInStartupCommandWhenUpdatingVariable()
     {
-        /** @var \LoafPanel\\Models\Server $server */
+        /** @var \LoafPanel\Models\Server $server */
         [$user, $server] = $this->generateTestAccount();
 
         $egg = $this->cloneEggAndVariables($server->egg);
@@ -116,7 +116,7 @@ class UpdateStartupVariableTest extends ClientApiIntegrationTestCase
      */
     public function testEggVariableWithNullableStringIsNotRequired()
     {
-        /** @var \LoafPanel\\Models\Server $server */
+        /** @var \LoafPanel\Models\Server $server */
         [$user, $server] = $this->generateTestAccount();
 
         $egg = $this->cloneEggAndVariables($server->egg);

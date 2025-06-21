@@ -1,9 +1,9 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Rules;
+namespace LoafPanel\Tests\Unit\Rules;
 
-use LoafPanel\\Rules\Username;
-use LoafPanel\\Tests\TestCase;
+use LoafPanel\Rules\Username;
+use LoafPanel\Tests\TestCase;
 
 class UsernameTest extends TestCase
 {

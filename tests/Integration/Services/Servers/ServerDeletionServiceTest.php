@@ -1,18 +1,18 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Servers;
+namespace LoafPanel\Tests\Integration\Services\Servers;
 
 use Mockery\MockInterface;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use LoafPanel\\Models\Database;
-use LoafPanel\\Models\DatabaseHost;
+use LoafPanel\Models\Database;
+use LoafPanel\Models\DatabaseHost;
 use GuzzleHttp\Exception\BadResponseException;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Servers\ServerDeletionService;
-use LoafPanel\\Repositories\Wings\DaemonServerRepository;
-use LoafPanel\\Services\Databases\DatabaseManagementService;
-use LoafPanel\\Exceptions\Http\Connection\DaemonConnectionException;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Servers\ServerDeletionService;
+use LoafPanel\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\Services\Databases\DatabaseManagementService;
+use LoafPanel\Exceptions\Http\Connection\DaemonConnectionException;
 
 class ServerDeletionServiceTest extends IntegrationTestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Application\Users;
+namespace LoafPanel\Tests\Integration\Api\Application\Users;
 
 use Illuminate\Support\Str;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
+use LoafPanel\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
 
 class ExternalUserControllerTest extends ApplicationApiIntegrationTestCase
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Servers;
+namespace LoafPanel\Tests\Integration\Services\Servers;
 
 use Exception;
-use LoafPanel\\Models\Nest;
-use LoafPanel\\Models\User;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\ServerVariable;
+use LoafPanel\Models\Nest;
+use LoafPanel\Models\User;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\ServerVariable;
 use Illuminate\Validation\ValidationException;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use LoafPanel\\Services\Servers\StartupModificationService;
+use LoafPanel\Services\Servers\StartupModificationService;
 
 class StartupModificationServiceTest extends IntegrationTestCase
 {
@@ -70,7 +70,7 @@ class StartupModificationServiceTest extends IntegrationTestCase
      */
     public function testServerIsProperlyModifiedAsAdminUser()
     {
-        /** @var \LoafPanel\\Models\Egg $nextEgg */
+        /** @var \LoafPanel\Models\Egg $nextEgg */
         $nextEgg = Nest::query()->findOrFail(2)->eggs()->firstOrFail();
 
         $server = $this->createServerModel(['egg_id' => 1]);

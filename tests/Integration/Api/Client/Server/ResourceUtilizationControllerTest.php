@@ -1,10 +1,10 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server;
+namespace LoafPanel\Tests\Integration\Api\Client\Server;
 
-use LoafPanel\\Models\Permission;
-use LoafPanel\\Repositories\Wings\DaemonServerRepository;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Permission;
+use LoafPanel\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class ResourceUtilizationControllerTest extends ClientApiIntegrationTestCase
 {

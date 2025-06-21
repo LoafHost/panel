@@ -1,13 +1,13 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Servers;
+namespace LoafPanel\Tests\Integration\Services\Servers;
 
-use LoafPanel\\Models\Egg;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\Egg;
+use LoafPanel\Models\User;
 use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Servers\VariableValidatorService;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Servers\VariableValidatorService;
 
 class VariableValidatorServiceTest extends IntegrationTestCase
 {

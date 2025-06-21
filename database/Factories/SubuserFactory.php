@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
-use LoafPanel\\Models\Subuser;
-use LoafPanel\\Models\Permission;
+use LoafPanel\Models\Subuser;
+use LoafPanel\Models\Permission;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class SubuserFactory extends Factory

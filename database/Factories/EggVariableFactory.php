@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Support\Str;
-use LoafPanel\\Models\EggVariable;
+use LoafPanel\Models\EggVariable;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class EggVariableFactory extends Factory

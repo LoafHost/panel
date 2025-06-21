@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server;
+namespace LoafPanel\Tests\Integration\Api\Client\Server;
 
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Allocation;
-use LoafPanel\\Models\Permission;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Allocation;
+use LoafPanel\Models\Permission;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class NetworkAllocationControllerTest extends ClientApiIntegrationTestCase
 {

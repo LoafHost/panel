@@ -1,18 +1,18 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Application;
+namespace LoafPanel\Tests\Integration\Api\Application;
 
 use Illuminate\Http\Request;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use PHPUnit\Framework\Assert;
-use LoafPanel\\Models\ApiKey;
-use LoafPanel\\Services\Acl\Api\AdminAcl;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Models\ApiKey;
+use LoafPanel\Services\Acl\Api\AdminAcl;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use LoafPanel\\Tests\Traits\Integration\CreatesTestModels;
-use LoafPanel\\Transformers\Api\Application\BaseTransformer;
-use LoafPanel\\Transformers\Api\Client\BaseClientTransformer;
-use LoafPanel\\Tests\Traits\Http\IntegrationJsonRequestAssertions;
+use LoafPanel\Tests\Traits\Integration\CreatesTestModels;
+use LoafPanel\Transformers\Api\Application\BaseTransformer;
+use LoafPanel\Transformers\Api\Client\BaseClientTransformer;
+use LoafPanel\Tests\Traits\Http\IntegrationJsonRequestAssertions;
 
 abstract class ApplicationApiIntegrationTestCase extends IntegrationTestCase
 {

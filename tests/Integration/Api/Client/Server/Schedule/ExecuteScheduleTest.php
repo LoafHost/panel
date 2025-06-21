@@ -1,14 +1,14 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\Schedule;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\Schedule;
 
-use LoafPanel\\Models\Task;
+use LoafPanel\Models\Task;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Schedule;
-use LoafPanel\\Models\Permission;
+use LoafPanel\Models\Schedule;
+use LoafPanel\Models\Permission;
 use Illuminate\Support\Facades\Bus;
-use LoafPanel\\Jobs\Schedule\RunTaskJob;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Jobs\Schedule\RunTaskJob;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class ExecuteScheduleTest extends ClientApiIntegrationTestCase
 {

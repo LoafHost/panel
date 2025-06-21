@@ -1,14 +1,14 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\Database;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\Database;
 
-use LoafPanel\\Models\Subuser;
-use LoafPanel\\Models\Database;
-use LoafPanel\\Models\DatabaseHost;
-use LoafPanel\\Contracts\Extensions\HashidsInterface;
-use LoafPanel\\Services\Databases\DatabasePasswordService;
-use LoafPanel\\Services\Databases\DatabaseManagementService;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Subuser;
+use LoafPanel\Models\Database;
+use LoafPanel\Models\DatabaseHost;
+use LoafPanel\Contracts\Extensions\HashidsInterface;
+use LoafPanel\Services\Databases\DatabasePasswordService;
+use LoafPanel\Services\Databases\DatabaseManagementService;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class DatabaseAuthorizationTest extends ClientApiIntegrationTestCase
 {

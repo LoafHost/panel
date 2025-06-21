@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Allocations;
+namespace LoafPanel\Tests\Integration\Services\Allocations;
 
-use LoafPanel\\Models\Allocation;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Allocations\FindAssignableAllocationService;
-use LoafPanel\\Exceptions\Service\Allocation\AutoAllocationNotEnabledException;
-use LoafPanel\\Exceptions\Service\Allocation\NoAutoAllocationSpaceAvailableException;
+use LoafPanel\Models\Allocation;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Allocations\FindAssignableAllocationService;
+use LoafPanel\Exceptions\Service\Allocation\AutoAllocationNotEnabledException;
+use LoafPanel\Exceptions\Service\Allocation\NoAutoAllocationSpaceAvailableException;
 
 class FindAssignableAllocationServiceTest extends IntegrationTestCase
 {

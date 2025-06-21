@@ -1,13 +1,13 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Application\Users;
+namespace LoafPanel\Tests\Integration\Api\Application\Users;
 
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Services\Acl\Api\AdminAcl;
-use LoafPanel\\Transformers\Api\Application\UserTransformer;
-use LoafPanel\\Transformers\Api\Application\ServerTransformer;
-use LoafPanel\\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
+use LoafPanel\Services\Acl\Api\AdminAcl;
+use LoafPanel\Transformers\Api\Application\UserTransformer;
+use LoafPanel\Transformers\Api\Application\ServerTransformer;
+use LoafPanel\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
 
 class UserControllerTest extends ApplicationApiIntegrationTestCase
 {

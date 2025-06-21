@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Servers;
+namespace LoafPanel\Tests\Integration\Services\Servers;
 
 use Mockery\MockInterface;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Services\Servers\SuspensionService;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\Models\Server;
+use LoafPanel\Services\Servers\SuspensionService;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Repositories\Wings\DaemonServerRepository;
 
 class SuspensionServiceTest extends IntegrationTestCase
 {

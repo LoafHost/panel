@@ -1,9 +1,9 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Http\Middleware;
+namespace LoafPanel\Tests\Unit\Http\Middleware;
 
-use LoafPanel\\Models\User;
-use LoafPanel\\Http\Middleware\AdminAuthenticate;
+use LoafPanel\Models\User;
+use LoafPanel\Http\Middleware\AdminAuthenticate;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 
 class AdminAuthenticateTest extends MiddlewareTestCase

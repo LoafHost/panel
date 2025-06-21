@@ -1,24 +1,24 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Servers;
+namespace LoafPanel\Tests\Integration\Services\Servers;
 
 use Mockery\MockInterface;
-use LoafPanel\\Models\Egg;
+use LoafPanel\Models\Egg;
 use GuzzleHttp\Psr7\Request;
-use LoafPanel\\Models\Node;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\Node;
+use LoafPanel\Models\User;
 use GuzzleHttp\Psr7\Response;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Location;
-use LoafPanel\\Models\Allocation;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Location;
+use LoafPanel\Models\Allocation;
 use Illuminate\Foundation\Testing\WithFaker;
 use GuzzleHttp\Exception\BadResponseException;
 use Illuminate\Validation\ValidationException;
-use LoafPanel\\Models\Objects\DeploymentObject;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Servers\ServerCreationService;
-use LoafPanel\\Repositories\Wings\DaemonServerRepository;
-use LoafPanel\\Exceptions\Http\Connection\DaemonConnectionException;
+use LoafPanel\Models\Objects\DeploymentObject;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Servers\ServerCreationService;
+use LoafPanel\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\Exceptions\Http\Connection\DaemonConnectionException;
 
 class ServerCreationServiceTest extends IntegrationTestCase
 {
@@ -65,7 +65,7 @@ class ServerCreationServiceTest extends IntegrationTestCase
             'location_id' => $location->id,
         ]);
 
-        /** @var \LoafPanel\\Models\Allocation[]|\Illuminate\Database\Eloquent\Collection $allocations */
+        /** @var \LoafPanel\Models\Allocation[]|\Illuminate\Database\Eloquent\Collection $allocations */
         $allocations = Allocation::factory()->times(5)->create([
             'node_id' => $node->id,
         ]);

@@ -1,6 +1,6 @@
 <?php
 
-namespace LoafPanel\\Tests\Traits\Http;
+namespace LoafPanel\Tests\Traits\Http;
 
 use Closure;
 use Illuminate\Http\Request;

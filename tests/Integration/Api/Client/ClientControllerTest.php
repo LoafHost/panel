@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client;
+namespace LoafPanel\Tests\Integration\Api\Client;
 
-use LoafPanel\\Models\User;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Subuser;
-use LoafPanel\\Models\Allocation;
-use LoafPanel\\Models\Permission;
+use LoafPanel\Models\User;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Subuser;
+use LoafPanel\Models\Allocation;
+use LoafPanel\Models\Permission;
 
 class ClientControllerTest extends ClientApiIntegrationTestCase
 {
@@ -18,10 +18,10 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testOnlyLoggedInUsersServersAreReturned()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(3)->create();
 
-        /** @var \LoafPanel\\Models\Server[] $servers */
+        /** @var \LoafPanel\Models\Server[] $servers */
         $servers = [
             $this->createServerModel(['user_id' => $users[0]->id]),
             $this->createServerModel(['user_id' => $users[1]->id]),
@@ -45,11 +45,11 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testServersAreFilteredUsingNameAndUuidInformation()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(2)->create();
         $users[0]->update(['root_admin' => true]);
 
-        /** @var \LoafPanel\\Models\Server[] $servers */
+        /** @var \LoafPanel\Models\Server[] $servers */
         $servers = [
             $this->createServerModel(['user_id' => $users[0]->id, 'name' => 'Julia']),
             $this->createServerModel(['user_id' => $users[1]->id, 'uuidShort' => '12121212', 'name' => 'Janice']),
@@ -143,7 +143,7 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testServersUserIsASubuserOfAreReturned()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(3)->create();
         $servers = [
             $this->createServerModel(['user_id' => $users[0]->id]),
@@ -174,7 +174,7 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testFilterOnlyOwnerServers()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(3)->create();
         $servers = [
             $this->createServerModel(['user_id' => $users[0]->id]),
@@ -223,7 +223,7 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testOnlyAdminLevelServersAreReturned()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(4)->create();
         $users[0]->update(['root_admin' => true]);
 
@@ -258,7 +258,7 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
      */
     public function testAllServersAreReturnedToAdmin()
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(4)->create();
         $users[0]->update(['root_admin' => true]);
 
@@ -289,7 +289,7 @@ class ClientControllerTest extends ClientApiIntegrationTestCase
     #[\PHPUnit\Framework\Attributes\DataProvider('filterTypeDataProvider')]
     public function testNoServersAreReturnedIfAdminFilterIsPassedByRegularUser(string $type)
     {
-        /** @var \LoafPanel\\Models\User[] $users */
+        /** @var \LoafPanel\Models\User[] $users */
         $users = User::factory()->times(3)->create();
 
         $this->createServerModel(['user_id' => $users[0]->id]);

@@ -1,15 +1,15 @@
 <?php
 
-namespace LoafPanel\\Tests\Traits\Integration;
+namespace LoafPanel\Tests\Traits\Integration;
 
 use Ramsey\Uuid\Uuid;
-use LoafPanel\\Models\Egg;
-use LoafPanel\\Models\Node;
-use LoafPanel\\Models\User;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Subuser;
-use LoafPanel\\Models\Location;
-use LoafPanel\\Models\Allocation;
+use LoafPanel\Models\Egg;
+use LoafPanel\Models\Node;
+use LoafPanel\Models\User;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Subuser;
+use LoafPanel\Models\Location;
+use LoafPanel\Models\Allocation;
 
 trait CreatesTestModels
 {
@@ -81,7 +81,7 @@ trait CreatesTestModels
      *
      * @param string[] $permissions
      *
-     * @return array{\LoafPanel\\Models\User, \LoafPanel\\Models\Server}
+     * @return array{\LoafPanel\Models\User, \LoafPanel\Models\Server}
      */
     public function generateTestAccount(array $permissions = []): array
     {

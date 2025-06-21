@@ -1,6 +1,6 @@
 <?php
 
-namespace LoafPanel\\Tests\Assertions;
+namespace LoafPanel\Tests\Assertions;
 
 use PHPUnit\Framework\Assert;
 

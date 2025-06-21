@@ -1,13 +1,13 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\ScheduleTask;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\ScheduleTask;
 
-use LoafPanel\\Models\Task;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\Task;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Schedule;
-use LoafPanel\\Models\Permission;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Schedule;
+use LoafPanel\Models\Permission;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class DeleteScheduleTaskTest extends ClientApiIntegrationTestCase
 {

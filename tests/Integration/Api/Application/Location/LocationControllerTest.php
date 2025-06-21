@@ -1,14 +1,14 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Application\Location;
+namespace LoafPanel\Tests\Integration\Api\Application\Location;
 
-use LoafPanel\\Models\Node;
+use LoafPanel\Models\Node;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Location;
-use LoafPanel\\Transformers\Api\Application\NodeTransformer;
-use LoafPanel\\Transformers\Api\Application\ServerTransformer;
-use LoafPanel\\Transformers\Api\Application\LocationTransformer;
-use LoafPanel\\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
+use LoafPanel\Models\Location;
+use LoafPanel\Transformers\Api\Application\NodeTransformer;
+use LoafPanel\Transformers\Api\Application\ServerTransformer;
+use LoafPanel\Transformers\Api\Application\LocationTransformer;
+use LoafPanel\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
 
 class LocationControllerTest extends ApplicationApiIntegrationTestCase
 {

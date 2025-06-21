@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use LoafPanel\\Models\Permission;
+use LoafPanel\Models\Permission;
 use Illuminate\Support\Facades\Schema;
-use LoafPanel\\Models\Permission as P;
+use LoafPanel\Models\Permission as P;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 

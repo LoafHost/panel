@@ -1,10 +1,10 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration;
+namespace LoafPanel\Tests\Integration;
 
 use Illuminate\Http\Response;
 use Illuminate\Testing\Assert as PHPUnit;
-use LoafPanel\\Exceptions\DisplayException;
+use LoafPanel\Exceptions\DisplayException;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Testing\TestResponse as IlluminateTestResponse;
 

@@ -1,17 +1,17 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Schedules;
+namespace LoafPanel\Tests\Integration\Services\Schedules;
 
 use Exception;
 use Carbon\CarbonImmutable;
-use LoafPanel\\Models\Task;
-use LoafPanel\\Models\Schedule;
+use LoafPanel\Models\Task;
+use LoafPanel\Models\Schedule;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Contracts\Bus\Dispatcher;
-use LoafPanel\\Jobs\Schedule\RunTaskJob;
-use LoafPanel\\Exceptions\DisplayException;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Schedules\ProcessScheduleService;
+use LoafPanel\Jobs\Schedule\RunTaskJob;
+use LoafPanel\Exceptions\DisplayException;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Schedules\ProcessScheduleService;
 
 class ProcessScheduleServiceTest extends IntegrationTestCase
 {

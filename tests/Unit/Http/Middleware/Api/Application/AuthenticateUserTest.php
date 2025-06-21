@@ -1,10 +1,10 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Http\Middleware\Api\Application;
+namespace LoafPanel\Tests\Unit\Http\Middleware\Api\Application;
 
-use LoafPanel\\Tests\Unit\Http\Middleware\MiddlewareTestCase;
+use LoafPanel\Tests\Unit\Http\Middleware\MiddlewareTestCase;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
-use LoafPanel\\Http\Middleware\Api\Application\AuthenticateApplicationUser;
+use LoafPanel\Http\Middleware\Api\Application\AuthenticateApplicationUser;
 
 class AuthenticateUserTest extends MiddlewareTestCase
 {

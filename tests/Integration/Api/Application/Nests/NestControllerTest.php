@@ -1,11 +1,11 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Application\Nests;
+namespace LoafPanel\Tests\Integration\Api\Application\Nests;
 
 use Illuminate\Http\Response;
-use LoafPanel\\Contracts\Repository\NestRepositoryInterface;
-use LoafPanel\\Transformers\Api\Application\NestTransformer;
-use LoafPanel\\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
+use LoafPanel\Contracts\Repository\NestRepositoryInterface;
+use LoafPanel\Transformers\Api\Application\NestTransformer;
+use LoafPanel\Tests\Integration\Api\Application\ApplicationApiIntegrationTestCase;
 
 class NestControllerTest extends ApplicationApiIntegrationTestCase
 {
@@ -26,7 +26,7 @@ class NestControllerTest extends ApplicationApiIntegrationTestCase
      */
     public function testNestResponse()
     {
-        /** @var \LoafPanel\\Models\Nest[] $nests */
+        /** @var \LoafPanel\Models\Nest[] $nests */
         $nests = $this->repository->all();
 
         $response = $this->getJson('/api/application/nests');

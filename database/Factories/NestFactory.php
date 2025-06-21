@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use Ramsey\Uuid\Uuid;
-use LoafPanel\\Models\Nest;
+use LoafPanel\Models\Nest;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class NestFactory extends Factory

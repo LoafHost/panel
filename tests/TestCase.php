@@ -1,6 +1,6 @@
 <?php
 
-namespace LoafPanel\\Tests;
+namespace LoafPanel\Tests;
 
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;

@@ -2,12 +2,12 @@
 
 namespace Database\Seeders;
 
-use LoafPanel\\Models\Egg;
-use LoafPanel\\Models\Nest;
+use LoafPanel\Models\Egg;
+use LoafPanel\Models\Nest;
 use Illuminate\Database\Seeder;
 use Illuminate\Http\UploadedFile;
-use LoafPanel\\Services\Eggs\Sharing\EggImporterService;
-use LoafPanel\\Services\Eggs\Sharing\EggUpdateImporterService;
+use LoafPanel\Services\Eggs\Sharing\EggImporterService;
+use LoafPanel\Services\Eggs\Sharing\EggUpdateImporterService;
 
 class EggSeeder extends Seeder
 {

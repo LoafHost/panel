@@ -1,14 +1,14 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Http\Middleware;
+namespace LoafPanel\Tests\Unit\Http\Middleware;
 
 use Mockery as m;
 use Mockery\MockInterface;
-use LoafPanel\\Models\Node;
+use LoafPanel\Models\Node;
 use Illuminate\Http\Response;
-use LoafPanel\\Models\Server;
+use LoafPanel\Models\Server;
 use Illuminate\Contracts\Routing\ResponseFactory;
-use LoafPanel\\Http\Middleware\MaintenanceMiddleware;
+use LoafPanel\Http\Middleware\MaintenanceMiddleware;
 
 class MaintenanceMiddlewareTest extends MiddlewareTestCase
 {

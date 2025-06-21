@@ -1,20 +1,20 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Jobs\Schedule;
+namespace LoafPanel\Tests\Integration\Jobs\Schedule;
 
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;
 use GuzzleHttp\Psr7\Request;
-use LoafPanel\\Models\Task;
+use LoafPanel\Models\Task;
 use GuzzleHttp\Psr7\Response;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Schedule;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Schedule;
 use Illuminate\Support\Facades\Bus;
-use LoafPanel\\Jobs\Schedule\RunTaskJob;
+use LoafPanel\Jobs\Schedule\RunTaskJob;
 use GuzzleHttp\Exception\BadResponseException;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Repositories\Wings\DaemonPowerRepository;
-use LoafPanel\\Exceptions\Http\Connection\DaemonConnectionException;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Repositories\Wings\DaemonPowerRepository;
+use LoafPanel\Exceptions\Http\Connection\DaemonConnectionException;
 
 class RunTaskJobTest extends IntegrationTestCase
 {

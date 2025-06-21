@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Allocation;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Allocation;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class AllocationFactory extends Factory

@@ -1,11 +1,11 @@
 <?php
 
-namespace LoafPanel\\Tests\Traits\Http;
+namespace LoafPanel\Tests\Traits\Http;
 
 use Mockery as m;
 use Mockery\Mock;
 use Illuminate\Http\Request;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Symfony\Component\HttpFoundation\ParameterBag;
 
 trait RequestMockHelpers

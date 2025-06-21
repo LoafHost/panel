@@ -1,15 +1,15 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Databases;
+namespace LoafPanel\Tests\Integration\Services\Databases;
 
 use Mockery\MockInterface;
-use LoafPanel\\Models\Node;
-use LoafPanel\\Models\Database;
-use LoafPanel\\Models\DatabaseHost;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Databases\DatabaseManagementService;
-use LoafPanel\\Services\Databases\DeployServerDatabaseService;
-use LoafPanel\\Exceptions\Service\Database\NoSuitableDatabaseHostException;
+use LoafPanel\Models\Node;
+use LoafPanel\Models\Database;
+use LoafPanel\Models\DatabaseHost;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Databases\DatabaseManagementService;
+use LoafPanel\Services\Databases\DeployServerDatabaseService;
+use LoafPanel\Exceptions\Service\Database\NoSuitableDatabaseHostException;
 
 class DeployServerDatabaseServiceTest extends IntegrationTestCase
 {

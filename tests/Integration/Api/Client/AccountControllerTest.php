@@ -1,9 +1,9 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client;
+namespace LoafPanel\Tests\Integration\Api\Client;
 
 use Illuminate\Support\Str;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
 

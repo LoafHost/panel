@@ -1,15 +1,15 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Deployment;
+namespace LoafPanel\Tests\Integration\Services\Deployment;
 
-use LoafPanel\\Models\Node;
-use LoafPanel\\Models\Server;
-use LoafPanel\\Models\Database;
-use LoafPanel\\Models\Location;
+use LoafPanel\Models\Node;
+use LoafPanel\Models\Server;
+use LoafPanel\Models\Database;
+use LoafPanel\Models\Location;
 use Illuminate\Support\Collection;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Services\Deployment\FindViableNodesService;
-use LoafPanel\\Exceptions\Service\Deployment\NoViableNodeException;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Services\Deployment\FindViableNodesService;
+use LoafPanel\Exceptions\Service\Deployment\NoViableNodeException;
 
 class FindViableNodesServiceTest extends IntegrationTestCase
 {
@@ -68,10 +68,10 @@ class FindViableNodesServiceTest extends IntegrationTestCase
 
     public function testExpectedNodeIsReturnedForLocation()
     {
-        /** @var \LoafPanel\\Models\Location[] $locations */
+        /** @var \LoafPanel\Models\Location[] $locations */
         $locations = Location::factory()->times(2)->create();
 
-        /** @var \LoafPanel\\Models\Node[] $nodes */
+        /** @var \LoafPanel\Models\Node[] $nodes */
         $nodes = [
             // This node should never be returned once we've completed the initial test which
             // runs without a location filter.

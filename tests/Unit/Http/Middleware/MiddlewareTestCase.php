@@ -1,11 +1,11 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Http\Middleware;
+namespace LoafPanel\Tests\Unit\Http\Middleware;
 
-use LoafPanel\\Tests\TestCase;
-use LoafPanel\\Tests\Traits\Http\RequestMockHelpers;
-use LoafPanel\\Tests\Traits\Http\MocksMiddlewareClosure;
-use LoafPanel\\Tests\Assertions\MiddlewareAttributeAssertionsTrait;
+use LoafPanel\Tests\TestCase;
+use LoafPanel\Tests\Traits\Http\RequestMockHelpers;
+use LoafPanel\Tests\Traits\Http\MocksMiddlewareClosure;
+use LoafPanel\Tests\Assertions\MiddlewareAttributeAssertionsTrait;
 
 abstract class MiddlewareTestCase extends TestCase
 {

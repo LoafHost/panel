@@ -1,12 +1,12 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Http\Middleware;
+namespace LoafPanel\Tests\Unit\Http\Middleware;
 
 use Mockery as m;
 use Mockery\MockInterface;
-use LoafPanel\\Models\User;
+use LoafPanel\Models\User;
 use Illuminate\Foundation\Application;
-use LoafPanel\\Http\Middleware\LanguageMiddleware;
+use LoafPanel\Http\Middleware\LanguageMiddleware;
 
 class LanguageMiddlewareTest extends MiddlewareTestCase
 {

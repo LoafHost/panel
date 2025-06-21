@@ -1,11 +1,11 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Api\Client\Server\Schedule;
+namespace LoafPanel\Tests\Integration\Api\Client\Server\Schedule;
 
-use LoafPanel\\Models\Task;
-use LoafPanel\\Models\Schedule;
-use LoafPanel\\Models\Permission;
-use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\Models\Task;
+use LoafPanel\Models\Schedule;
+use LoafPanel\Models\Permission;
+use LoafPanel\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class GetServerSchedulesTest extends ClientApiIntegrationTestCase
 {

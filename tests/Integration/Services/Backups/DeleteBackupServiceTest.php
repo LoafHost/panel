@@ -1,18 +1,18 @@
 <?php
 
-namespace LoafPanel\\Tests\Integration\Services\Backups;
+namespace LoafPanel\Tests\Integration\Services\Backups;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use LoafPanel\\Models\Backup;
+use LoafPanel\Models\Backup;
 use GuzzleHttp\Exception\ClientException;
-use LoafPanel\\Extensions\Backups\BackupManager;
-use LoafPanel\\Extensions\Filesystem\S3Filesystem;
-use LoafPanel\\Services\Backups\DeleteBackupService;
-use LoafPanel\\Tests\Integration\IntegrationTestCase;
-use LoafPanel\\Repositories\Wings\DaemonBackupRepository;
-use LoafPanel\\Exceptions\Service\Backup\BackupLockedException;
-use LoafPanel\\Exceptions\Http\Connection\DaemonConnectionException;
+use LoafPanel\Extensions\Backups\BackupManager;
+use LoafPanel\Extensions\Filesystem\S3Filesystem;
+use LoafPanel\Services\Backups\DeleteBackupService;
+use LoafPanel\Tests\Integration\IntegrationTestCase;
+use LoafPanel\Repositories\Wings\DaemonBackupRepository;
+use LoafPanel\Exceptions\Service\Backup\BackupLockedException;
+use LoafPanel\Exceptions\Http\Connection\DaemonConnectionException;
 
 class DeleteBackupServiceTest extends IntegrationTestCase
 {

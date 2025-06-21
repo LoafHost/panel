@@ -1,8 +1,8 @@
 <?php
 
-namespace LoafPanel\\Tests\Unit\Helpers;
+namespace LoafPanel\Tests\Unit\Helpers;
 
-use LoafPanel\\Tests\TestCase;
+use LoafPanel\Tests\TestCase;
 
 class IsDigitTest extends TestCase
 {

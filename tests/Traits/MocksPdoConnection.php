@@ -1,6 +1,6 @@
 <?php
 
-namespace LoafPanel\\Tests\Traits;
+namespace LoafPanel\Tests\Traits;
 
 use PDO;
 use Mockery;
