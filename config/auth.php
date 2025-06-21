@@ -77,12 +77,10 @@ return [
     |
     | Supported: "database", "eloquent"
     |
-    */
-
-    'providers' => [
+    */    'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => LoafPanel\\Models\User::class,
+            'model' => LoafPanel\Models\User::class,
         ],
     ],
 

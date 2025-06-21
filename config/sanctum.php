@@ -57,8 +57,7 @@ return [
     */
 
     'middleware' => [
-        'authenticate_session' => Laravel\Sanctum\Http\Middleware\AuthenticateSession::class,
-        'encrypt_cookies' => LoafPanel\\Http\Middleware\EncryptCookies::class,
-        'verify_csrf_token' => LoafPanel\\Http\Middleware\VerifyCsrfToken::class,
+        'authenticate_session' => Laravel\Sanctum\Http\Middleware\AuthenticateSession::class,        'encrypt_cookies' => LoafPanel\Http\Middleware\EncryptCookies::class,
+        'verify_csrf_token' => LoafPanel\Http\Middleware\VerifyCsrfToken::class,
     ],
 ];

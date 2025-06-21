@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
-use LoafPanel\\Helpers\Time;
+use LoafPanel\Helpers\Time;
 
 return [
     /*
