@@ -1,10 +1,10 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Allocation;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Allocation;
 
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\Allocation;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\Subuser;
+use LoafPanel\\Models\Allocation;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class AllocationAuthorizationTest extends ClientApiIntegrationTestCase
 {

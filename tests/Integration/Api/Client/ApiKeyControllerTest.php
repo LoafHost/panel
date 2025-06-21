@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client;
+namespace LoafPanel\\Tests\Integration\Api\Client;
 
-use Pterodactyl\Models\User;
+use LoafPanel\\Models\User;
 use Illuminate\Http\Response;
-use Pterodactyl\Models\ApiKey;
+use LoafPanel\\Models\ApiKey;
 use Illuminate\Support\Facades\Event;
-use Pterodactyl\Events\ActivityLogged;
+use LoafPanel\\Events\ActivityLogged;
 
 class ApiKeyControllerTest extends ClientApiIntegrationTestCase
 {

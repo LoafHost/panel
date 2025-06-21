@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Assertions;
+namespace LoafPanel\\Tests\Assertions;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Support\Facades\Event;
-use Pterodactyl\Events\ActivityLogged;
+use LoafPanel\\Events\ActivityLogged;
 use Illuminate\Database\Eloquent\Model;
-use Pterodactyl\Models\ActivityLogSubject;
+use LoafPanel\\Models\ActivityLogSubject;
 
 trait AssertsActivityLogged
 {

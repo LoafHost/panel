@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Backup;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Backup;
 
 use Carbon\CarbonImmutable;
-use Pterodactyl\Models\Backup;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Services\Backups\DeleteBackupService;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\Backup;
+use LoafPanel\\Models\Subuser;
+use LoafPanel\\Services\Backups\DeleteBackupService;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class BackupAuthorizationTest extends ClientApiIntegrationTestCase
 {

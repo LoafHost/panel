@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Schedule;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Schedule;
 
-use Pterodactyl\Models\Schedule;
-use Pterodactyl\Helpers\Utilities;
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\Schedule;
+use LoafPanel\\Helpers\Utilities;
+use LoafPanel\\Models\Permission;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class UpdateServerScheduleTest extends ClientApiIntegrationTestCase
 {

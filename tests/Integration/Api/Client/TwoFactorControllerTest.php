@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client;
+namespace LoafPanel\\Tests\Integration\Api\Client;
 
 use Carbon\Carbon;
-use Pterodactyl\Models\User;
+use LoafPanel\\Models\User;
 use Illuminate\Http\Response;
 use PragmaRX\Google2FA\Google2FA;
-use Pterodactyl\Models\RecoveryToken;
+use LoafPanel\\Models\RecoveryToken;
 use PHPUnit\Framework\ExpectationFailedException;
 
 class TwoFactorControllerTest extends ClientApiIntegrationTestCase

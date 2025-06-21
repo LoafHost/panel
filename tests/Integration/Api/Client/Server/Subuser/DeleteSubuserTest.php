@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Subuser;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Subuser;
 
 use Ramsey\Uuid\Uuid;
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Repositories\Wings\DaemonServerRepository;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\User;
+use LoafPanel\\Models\Subuser;
+use LoafPanel\\Models\Permission;
+use LoafPanel\\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class DeleteSubuserTest extends ClientApiIntegrationTestCase
 {

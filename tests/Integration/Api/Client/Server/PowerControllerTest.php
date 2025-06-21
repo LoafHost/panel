@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server;
 
 use Illuminate\Http\Response;
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Repositories\Wings\DaemonPowerRepository;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\Permission;
+use LoafPanel\\Repositories\Wings\DaemonPowerRepository;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class PowerControllerTest extends ClientApiIntegrationTestCase
 {

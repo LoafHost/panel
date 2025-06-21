@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Subuser;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Subuser;
 
-use Pterodactyl\Models\User;
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\Permission;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\User;
+use LoafPanel\\Models\Subuser;
+use LoafPanel\\Models\Permission;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class UpdateSubuserTest extends ClientApiIntegrationTestCase
 {

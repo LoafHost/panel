@@ -1,16 +1,16 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Services\Databases;
+namespace LoafPanel\\Tests\Integration\Services\Databases;
 
 use Mockery\MockInterface;
-use Pterodactyl\Models\Database;
-use Pterodactyl\Models\DatabaseHost;
-use Pterodactyl\Tests\Integration\IntegrationTestCase;
-use Pterodactyl\Repositories\Eloquent\DatabaseRepository;
-use Pterodactyl\Services\Databases\DatabaseManagementService;
-use Pterodactyl\Exceptions\Repository\DuplicateDatabaseNameException;
-use Pterodactyl\Exceptions\Service\Database\TooManyDatabasesException;
-use Pterodactyl\Exceptions\Service\Database\DatabaseClientFeatureNotEnabledException;
+use LoafPanel\\Models\Database;
+use LoafPanel\\Models\DatabaseHost;
+use LoafPanel\\Tests\Integration\IntegrationTestCase;
+use LoafPanel\\Repositories\Eloquent\DatabaseRepository;
+use LoafPanel\\Services\Databases\DatabaseManagementService;
+use LoafPanel\\Exceptions\Repository\DuplicateDatabaseNameException;
+use LoafPanel\\Exceptions\Service\Database\TooManyDatabasesException;
+use LoafPanel\\Exceptions\Service\Database\DatabaseClientFeatureNotEnabledException;
 
 class DatabaseManagementServiceTest extends IntegrationTestCase
 {

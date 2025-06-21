@@ -1,14 +1,14 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Api\Client\Server\Database;
+namespace LoafPanel\\Tests\Integration\Api\Client\Server\Database;
 
-use Pterodactyl\Models\Subuser;
-use Pterodactyl\Models\Database;
-use Pterodactyl\Models\DatabaseHost;
-use Pterodactyl\Contracts\Extensions\HashidsInterface;
-use Pterodactyl\Services\Databases\DatabasePasswordService;
-use Pterodactyl\Services\Databases\DatabaseManagementService;
-use Pterodactyl\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
+use LoafPanel\\Models\Subuser;
+use LoafPanel\\Models\Database;
+use LoafPanel\\Models\DatabaseHost;
+use LoafPanel\\Contracts\Extensions\HashidsInterface;
+use LoafPanel\\Services\Databases\DatabasePasswordService;
+use LoafPanel\\Services\Databases\DatabaseManagementService;
+use LoafPanel\\Tests\Integration\Api\Client\ClientApiIntegrationTestCase;
 
 class DatabaseAuthorizationTest extends ClientApiIntegrationTestCase
 {

@@ -82,7 +82,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Pterodactyl\Models\User::class,
+            'model' => LoafPanel\\Models\User::class,
         ],
     ],
 

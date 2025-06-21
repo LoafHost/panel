@@ -1,12 +1,12 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Services\Servers;
+namespace LoafPanel\\Tests\Integration\Services\Servers;
 
 use Mockery\MockInterface;
-use Pterodactyl\Models\Server;
-use Pterodactyl\Services\Servers\SuspensionService;
-use Pterodactyl\Tests\Integration\IntegrationTestCase;
-use Pterodactyl\Repositories\Wings\DaemonServerRepository;
+use LoafPanel\\Models\Server;
+use LoafPanel\\Services\Servers\SuspensionService;
+use LoafPanel\\Tests\Integration\IntegrationTestCase;
+use LoafPanel\\Repositories\Wings\DaemonServerRepository;
 
 class SuspensionServiceTest extends IntegrationTestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Pterodactyl\Tests\Integration\Services\Servers;
+namespace LoafPanel\\Tests\Integration\Services\Servers;
 
-use Pterodactyl\Models\Egg;
-use Pterodactyl\Models\User;
+use LoafPanel\\Models\Egg;
+use LoafPanel\\Models\User;
 use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
-use Pterodactyl\Tests\Integration\IntegrationTestCase;
-use Pterodactyl\Services\Servers\VariableValidatorService;
+use LoafPanel\\Tests\Integration\IntegrationTestCase;
+use LoafPanel\\Services\Servers\VariableValidatorService;
 
 class VariableValidatorServiceTest extends IntegrationTestCase
 {

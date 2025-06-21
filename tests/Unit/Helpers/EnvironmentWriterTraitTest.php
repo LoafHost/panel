@@ -1,9 +1,9 @@
 <?php
 
-namespace Pterodactyl\Tests\Unit\Helpers;
+namespace LoafPanel\\Tests\Unit\Helpers;
 
-use Pterodactyl\Tests\TestCase;
-use Pterodactyl\Traits\Commands\EnvironmentWriterTrait;
+use LoafPanel\\Tests\TestCase;
+use LoafPanel\\Traits\Commands\EnvironmentWriterTrait;
 
 class EnvironmentWriterTraitTest extends TestCase
 {

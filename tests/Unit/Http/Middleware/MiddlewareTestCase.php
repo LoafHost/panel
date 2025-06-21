@@ -1,11 +1,11 @@
 <?php
 
-namespace Pterodactyl\Tests\Unit\Http\Middleware;
+namespace LoafPanel\\Tests\Unit\Http\Middleware;
 
-use Pterodactyl\Tests\TestCase;
-use Pterodactyl\Tests\Traits\Http\RequestMockHelpers;
-use Pterodactyl\Tests\Traits\Http\MocksMiddlewareClosure;
-use Pterodactyl\Tests\Assertions\MiddlewareAttributeAssertionsTrait;
+use LoafPanel\\Tests\TestCase;
+use LoafPanel\\Tests\Traits\Http\RequestMockHelpers;
+use LoafPanel\\Tests\Traits\Http\MocksMiddlewareClosure;
+use LoafPanel\\Tests\Assertions\MiddlewareAttributeAssertionsTrait;
 
 abstract class MiddlewareTestCase extends TestCase
 {
